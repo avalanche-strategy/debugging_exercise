@@ -20,7 +20,7 @@ We then sum the counts of non-trivial factors for each number in each player's l
 
 Factoring large numbers is a slow computation, and quickly grows in time complexity as the number to factor grows.
 In order to try and keep performance acceptable for the game, the engineers added a caching mechanism to store the
-number of factories in memory so that if a number is ever used a second time, it is fast to calculate. This means
+number of factors in memory so that if a number is ever used a second time, it is fast to calculate. This means
 if two players play Factor Battle and don't change their lists for two games in a row, the second game should run
 much much faster than the first game did because all the values are cached. However, something is wrong and
 playing the game with the same arrays mutliple times is slow.
@@ -38,8 +38,8 @@ checks to see if playing the game with the same lists twice in a row runs faster
 is failing. It's your job to figure out why, and fix the underlying issue.
 
 This exercise is as much about thought process as it is about finding the underlying issue. Talk out loud where possible so
-we can follow along with your thoughts. You can use any resources you'd like. Feel free to look things up, ask questions,
-use debuggers, or console log all over the place. Whatever techniques you're most comfortable with, you should use them.
+we can follow along. You can use any resources you'd like. Feel free to look things up, ask questions,
+use debuggers, or console log all over the place. You should use whatever techniques you're most comfortable with.
 
 # Setup
 
