@@ -43,6 +43,10 @@ use debuggers, or console log all over the place. You should use whatever techni
 
 # Setup
 
+### If you're using javascript
 You'll need to run `yarn` in the javascript directory. Then to run tests you can use `yarn test`.
+
+### If you're using python
+To run tests, you need to run `pytest test` in the python directory.
 
 Good luck!
