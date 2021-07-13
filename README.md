@@ -23,7 +23,7 @@ In order to try and keep performance acceptable for the game, the engineers adde
 number of factors in memory so that if a number is ever used a second time, it is fast to calculate. This means
 if two players play Factor Battle and don't change their lists for two games in a row, the second game should run
 much much faster than the first game did because all the values are cached. However, something is wrong and
-playing the game with the same arrays mutliple times is slow.
+playing the game with the same arrays multiple times is slow.
 
 # Your task
 
@@ -47,6 +47,6 @@ use debuggers, or console log all over the place. You should use whatever techni
 You'll need to run `yarn` in the javascript directory. Then to run tests you can use `yarn test`.
 
 ### If you're using python
-To run tests, you need to run `pytest test` in the python directory.
+You'll need to have pytest setup to run the tests. If you don't have pytest installed system-wide, you can run the tests in either a poetry shell or a pipenv shell in the python directory. To run the tests, you need to run `pytest test` in the python directory. 
 
 Good luck!
