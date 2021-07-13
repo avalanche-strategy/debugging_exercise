@@ -47,6 +47,6 @@ use debuggers, or console log all over the place. You should use whatever techni
 You'll need to run `yarn` in the javascript directory. Then to run tests you can use `yarn test`.
 
 ### If you're using python
-You'll need to have pytest setup to run the tests. If you don't have pytest installed system-wide, you can run the tests in either a poetry shell or a pipenv shell in the python directory. To run the tests, you need to run `pytest test` in the python directory. 
+You'll need to have `pytest` setup to run the tests. If you don't have `pytest` installed system-wide, you can run the tests in either a `poetry shell` or a `pipenv shell` in the python directory. To run the tests, you need to run `pytest test` in the python directory. 
 
 Good luck!
